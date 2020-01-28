@@ -1,0 +1,121 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resto.jpg);
+  height: 105vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "high tower text", "sans-serif";
+  font-size: 15px;
+}
+
+.main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.main-nav li:hover ul.sub{
+  display: block;
+  position: absolute;
+ }
+
+ ul.sub{
+  display: none;
+ }
+
+ ul.sub li{
+  display: block;
+  margin-top: 10px;
+ }
+
+.logo img
+{
+  width: 200px;
+  height: 80px;
+  float: left;
+}
+
+body
+{
+  font-family: monospace;
+}
+
+.woy
+{
+  max-width: 1300px;
+  margin: auto;
+}
+
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 180px auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}

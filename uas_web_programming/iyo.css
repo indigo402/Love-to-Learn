@@ -1,0 +1,91 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resto.jpg);
+  height: 850px;
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "high tower text", "sans-serif";
+  font-size: 15px;
+}
+
+.main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.main-nav li:hover ul.sub{
+  display: block;
+  position: absolute;
+ }
+
+ ul.sub{
+  display: none;
+ }
+
+ ul.sub li{
+  display: block;
+  margin-top: 10px;
+ }
+
+.logo img
+{
+  width: 200px;
+  height: 80px;
+  float: left;
+}
+
+body
+{
+  font-family: monospace;
+}
+
+.row
+{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.kotak_login{
+  width: 950px;
+  height: 340px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 120px auto;
+  margin-bottom: 0px;
+  padding: 70px 70px 270px 70px;
+  text-align: justify;
+  font-family: century gothic;
+  font-size: 15px;
+}

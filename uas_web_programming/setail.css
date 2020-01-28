@@ -1,0 +1,167 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resto.jpg);
+	height: 200vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "high tower text", "sans-serif";
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.main-nav li:hover ul.sub{
+  display: block;
+  position: absolute;
+ }
+
+ ul.sub{
+  display: none;
+ }
+
+ ul.sub li{
+  display: block;
+  margin-top: 10px;
+
+ }
+
+.logo img
+{
+	width: 200px;
+	height: 80px;
+	float: left;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1300px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 200px;
+	font-family: Perpetua Titling MT Bold;
+}
+
+h2
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: gabriola regular;
+}
+
+h3
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 170px;
+	font-family: Century Gothic;
+}
+
+p
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: Century Gothic;
+  	text-shadow: 1px 1px 5px black, 0 0 30px blue, 0 0 10px darkblue;
+}
+
+.button
+{
+	margin-top: 30px;
+	margin-left: 520px;
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn-one
+{
+	background-color: darkgreen;
+	font-family: "high tower text";
+} 
+
+.btn-one:hover
+{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+}
+
+.btn-two
+{
+	font-family: "high tower text";
+} 
+
+.btn-two:hover
+{
+	background-color: darkblue;
+	transition: all 0.5s ease-in;
+}
+
+* {box-sizing:border-box}
